@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_album"
+        android:icon="@drawable/album"
+        android:title="Album" />
+
+    <item
+        android:id="@+id/navigation_online"
+        android:icon="@drawable/online"
+        android:title="Online" />
+
+    <item
+        android:id="@+id/navigation_video"
+        android:icon="@drawable/ic_videocam_black_24dp"
+        android:title="Video" />
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/seaarchbbb"
+        android:title="Search" />
+
+
+
+</menu>

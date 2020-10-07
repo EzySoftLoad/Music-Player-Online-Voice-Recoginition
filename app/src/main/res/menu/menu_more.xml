@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="ifRoom"
+        android:title="todo" />
+
+
+    <item android:id="@+id/more"
+        android:icon="@drawable/ic_more"
+        app:showAsAction="ifRoom"
+        android:title="TODO" >
+
+        <menu>
+
+            <item android:id="@+id/sub_item1"
+                android:title="Add to Playlist"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/sub_item2"
+                android:title="Delete" />
+
+            <item android:id="@+id/sub_item3"
+                android:title="Library"/>
+
+
+            <item android:id="@+id/sub_item4"
+                android:title="Rate" />
+
+
+            <item android:id="@+id/sub_item5"
+                android:title="About us" />
+
+
+        </menu>
+
+
+
+
+
+
+    </item>
+
+
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "730756025690",
+    "firebase_url": "https://musiplay-79067.firebaseio.com",
+    "project_id": "musiplay-79067",
+    "storage_bucket": "musiplay-79067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730756025690:android:55c726f94917b80fee7763",
+        "android_client_info": {
+          "package_name": "com.example.musiplay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730756025690-b1kunv4pud4bhtp6hulgpku77c01ebk1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.musiplay",
+            "certificate_hash": "041a1ece91c6bebcff3851f79ed2279b764154cb"
+          }
+        },
+        {
+          "client_id": "730756025690-vt8pnpmin8va4tddafi85lk64v8t9ulf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWNuqw2RBhFCabRpjv89HZOnef_kydjZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730756025690-vt8pnpmin8va4tddafi85lk64v8t9ulf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ByPassActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/queue" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Romantic Songs"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/button"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <Button
+                        android:id="@+id/latest_p1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p7"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p6"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p5"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p4"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p3"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p2"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p2"
+                        android:textColor="@android:color/white" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <Button
+                        android:id="@+id/latest_p8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p2"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p9"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p3"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p10"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p6"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p11"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p3"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p12"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p4"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p13"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p5"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/latest_p14"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p5"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:text="Evergreen Albums"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <Button
+                        android:id="@+id/romantic_p1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p1"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/romantic_p2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p2"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/romantic_p3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p3"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/romantic_p4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p4"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/romantic_p5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p5"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/romantic_p6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p6"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/romantic_p7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p7"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+        <TextView
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:text="More  >"
+        android:textColor="#7C000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="Old is Gold 90s Songs"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tableLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <Button
+                        android:id="@+id/oldisgold_p1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p1"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/oldisgold_p2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p2"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/oldisgold_p3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p3"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/oldisgold_p4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p4"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/oldisgold_p5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p5"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/oldisgold_p6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p6"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/oldisgold_p7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p7"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="Evergreen Songs"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/tableLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent">
+
+            <TableLayout
+                android:id="@+id/tableLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <Button
+                        android:id="@+id/evergreen_p1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p1"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/evergreen_p2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p2"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/evergreen_p3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p3"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/evergreen_p4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p4"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/evergreen_p5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p5"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/evergreen_p6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p6"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/evergreen_p7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p7"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+
+        <ImageView
+            android:id="@+id/strip"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/kbs_logo"/>
+
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="24dp"
+            android:text="Devotional Songs"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/strip"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/strip" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="parent">
+
+            <TableLayout
+                android:id="@+id/tableLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp">
+
+                    <Button
+                        android:id="@+id/Devotional_p1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p1"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/Devotional_p2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p2"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/Devotional_p3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p3"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/Devotional_p4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p4"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/Devotional_p5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p5"
+                        android:textColor="@android:color/white" />
+
+                    <Button
+                        android:id="@+id/Devotional_p6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p6"
+                        android:textColor="@android:color/white" />
+
+
+                    <Button
+                        android:id="@+id/Devotional_p7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_margin="4dp"
+                        android:background="@drawable/p7"
+                        android:textColor="@android:color/white" />
+
+                </TableRow>
+            </TableLayout>
+        </HorizontalScrollView>
+
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
